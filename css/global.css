@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #0ABEAD;
+    --secondary-color: #14141F;
+    --accent-color: #312D4F;
+    --light-color: #FBF8FF;
+    --font-family: "Montserrat", sans-serif;
+    --minha-cor: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    background-color: var(--light-color);
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }

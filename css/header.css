@@ -1,0 +1,40 @@
+.site-header {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+  }
+  
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li a {
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: var(--primary-color);
+  }
